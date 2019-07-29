@@ -1,0 +1,22 @@
+.navbar-toggler-icon{
+    color: #dc3545;
+    background-color: #dc3545;
+}
+.container-fluid .row img{
+    width: 100%;
+}
+.input-group-btn .btn{
+    border-radius: 0 0.25em 0.25em 0 ;
+    border: unset;
+}
+.row .slogan p{
+    margin: unset;
+    font-size: 14px;
+}
+.row .slogan p:nth-child(1){
+    padding-bottom: 10px;
+}
+.row .slogan p img{
+
+    width: 114px !important;
+}

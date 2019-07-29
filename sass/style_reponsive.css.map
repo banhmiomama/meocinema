@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAE3D,AAAA,QAAQ,CAAC,WAAW,CAAA;IAChB,KAAK,EAAE,GAAG;IACV,KAAK,EAAE,EAAE;GACZ;EACD,AAAA,QAAQ,CAAC,UAAU,CAAC,OAAO,CAAA;IACvB,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,GAAG;GACd",
+    "sources": [
+        "style_reponsive.scss"
+    ],
+    "names": [],
+    "file": "style_reponsive.css"
+}

@@ -1,0 +1,11 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .section .buy_ticket {
+    width: 80%;
+    right: 5%;
+  }
+  .section .film_list .column {
+    width: 100%;
+    height: 25%;
+  }
+}
+/*# sourceMappingURL=style_reponsive.css.map */
