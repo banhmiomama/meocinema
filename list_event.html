@@ -82,68 +82,22 @@
     </nav>
     <main id="page">
         <section data-anchor="Page 1" class="section">
-            <video autoplay loop preload muted>
-                <source src="video/home.mp4" type="video/mp4">
-            </video>
-            <div class="buy_ticket" data-aos="fade-left">
-                <div class="buy">
-                    <h4>Mua vé nhanh</h4>
+            <div class="row pd_list">
+                <div class="col-sm-3 list_event_detail">
+                    <img src="img/event__2.jpg" alt="">
+                    <div class="event__detail">
+                        <h5>Cập Nhật Thông Tin G-Star 2019</h5>
+                        <button type="button"><a href="">Chi tiết</a></button>
+                    </div>
                 </div>
-                <div class="tabcontrol">
-                    <div class="btn-tab">
-                        <button onclick="show_tab(0)" class="active">Theo phim</button>
-                        <button onclick="show_tab(1)">Theo ngày</button>
-                        <button onclick="show_tab(2)">Theo rạp</button>
-                    </div>
-                    <div class="content-tab">
-                        <div class="content">
-                            <select name="" id="">
-                                <option value="">Chọn Phim</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Chọn rạp</option>
-                            </select>
-
-                            <select name="" id="">
-                                <option value="">Chọn ngày</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Chọn suất</option>
-                            </select>
-                        </div>
-                        <div class="content">
-                            <select name="" id="">
-                                <option value="">Chọn ngày</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Chọn rạp</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Chọn Phim</option>
-                            </select>
-
-                            <select name="" id="">
-                                <option value="">Chọn suất</option>
-                            </select>
-                        </div>
-                        <div class="content">
-                            <select name="" id="">
-                                <option value="">Chọn rạp</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Chọn Phim</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Chọn ngày</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Chọn suất</option>
-                            </select>
-                        </div>
-                        <div class="send">
-                            <button type="button"><a href="#">Đặt vé</a></button>
-                        </div>
-                    </div>
+                <div class="col-sm-3">
+                    <img src="img/event__3.jpg" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/envent_4.jpg" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/event__2.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -437,12 +391,6 @@
         });
     </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
-    <script>
-        var width = window.innerWidth;
-        if ( width >= '320' && width <= '480'){
-           document.getElementById('page-2').style.height ='1000px';
-        }
-    </script>
     <script src="js/js.js"></script>
 </body>
 

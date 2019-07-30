@@ -17,6 +17,69 @@
     padding-bottom: 10px;
 }
 .row .slogan p img{
-
     width: 114px !important;
+}
+.list-unstyled li a{
+    color: rgba(0, 0, 0, 0.5);
+}
+.list-unstyled li a:hover{
+    color: red;
+    text-decoration: none;
+}
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+.nav-tabs .nav-item:hover a::after{
+    width: 100%;
+}
+.nav-tabs .nav-item{
+    margin-right: 5px;
+}
+.nav-tabs .nav-item a{
+    position: relative;
+    color: white;
+}
+.nav-tabs .nav-item:hover{
+    outline: none;
+    border: none;
+}
+.nav-tabs .nav-item.active a::after{
+    width: 100%;
+}
+.nav-tabs .nav-item a::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width:0;
+    background-color: red;
+    height: 2px;
+    transition: 1s;
+}
+.nav-tabs .nav-item:hover{
+    border: unset;
+    outline: 0;
+    outline-style: none;
+    outline-color: transparent;
+}
+.nav-tabs {
+    border-bottom: unset;
+}
+.tab-content>.tab-pane{
+    overflow-y: auto;
+}
+.nav-tabs .nav-link {
+    border: unset;
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0; 
+}
+.list_film_detail{
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+.pd_list{
+    padding: 15vh 20px;
 }

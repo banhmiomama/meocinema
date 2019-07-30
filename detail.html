@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Meo Cinema</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/pageable.js"></script>
-
-    <link rel="stylesheet" href="vendor/cachu_slider/cachu-slider.css">
+    <script src="js/pageable.js"></script> 
     <script src="vendor/cachu_slider/cachu-slider.js"></script>
+    <link rel="shortcut icon" type="image/icon" href="img/Meo_logo.ico" />
+    <link rel="stylesheet" href="vendor/cachu_slider/cachu-slider.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
     <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style_button.css">
     <link rel="stylesheet" href="css/style_custom.css">
     <link rel="stylesheet" href="sass/style.css">
 </head>
@@ -27,7 +29,7 @@
             aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#"><img style="fill: red !important" src="img/Meo_logo.svg" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="img/Meo_logo.svg" alt=""></a>
         <div class="collapse navbar-collapse text-center" id="nav-content">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -78,54 +80,156 @@
             </div>
         </form>
     </nav>
-    <div class="section" group="page" id="section2">
-        <div class="detail_left">
-            <img src="img/spider_man_detail.jpg" alt="">
-        </div>
-        <div class="detail_right">
-            <div class="detail_inner">
-
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#home">Thông tin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#menu1">Nội dung</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#menu2">Trailer</a>
-                    </li>
-                </ul>
-
-                <div class="tab-content">
-                    <div id="home" class="container tab-pane active"><br>
-                        <h3>NGƯỜI NHỆN XA NHÀ</h3>
-                        <p><strong>Đạo diễn: </strong><span>Jon Watts</span></p>
-                        <p><strong>Diễn viên: </strong><span>Tom Holland, Zendaya, Jake Gyllenhaal, Marisa Tomei</span>
-                        </p>
-                        <p><strong>Thể loại: </strong><span>Hành Động, Khoa Học Viễn Tưởng</span></p>
-                        <p><strong>Khởi chiếu: </strong><span>05/07/2019</span></p>
-                        <p><strong>Thời lượng: </strong><span>135 phút</span></p>
-                        <p><strong>Ngôn ngữ: </strong><span>Tiếng Anh và phụ đề tiếng Việt</span></p>
-                        <p><strong>Rated: </strong><span>C13 - PHIM CẤM KHÁN GIẢ DƯỚI 13 TUỔI</span></p>
+    <main id="page">
+        <section class="section" data-anchor="Page 1" class="section">
+            <div class="detail_film">
+                <div class="detail_left">
+                    <div class="image_detail">
+                        <img src="img/spider_man_detail.jpg" alt="">
                     </div>
-                    <div id="menu1" class="container tab-pane fade"><br>
-                        <p>Hậu chiến Vô Cực, Người Nhện Peter Parker và nhóm bạn thân cùng tham gia chuyến du lịch châu
-                            Âu của trường. Tuy nhiên, kế hoạch siêu anh hùng nghỉ phép của Peter nhanh chóng bị hủy bỏ
-                            sau khi cậu đồng ý giúp Nick Fury khám phá bí ẩn về những cuộc tấn công của nhóm kẻ thù mang
-                            sức mạnh nguyên tố đang tàn phá khắp lục địa.</p>
-                        <div class="list_img">
+                </div>
+                <div class="detail_center">
+                    <div class="detail_inner">
 
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#home">Thông tin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu1">Nội dung</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#menu2">Trailer</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="container tab-pane active"><br>
+                                <h3>NGƯỜI NHỆN XA NHÀ</h3>
+                                <h6><i class="fas fa-star"></i> 8/10 <button type="button">Đánh giá</button></h6>
+                                <p><strong>Đạo diễn: </strong><span>Jon Watts</span></p>
+                                <p><strong>Diễn viên: </strong><span>Tom Holland, Zendaya, Jake Gyllenhaal, Marisa
+                                        Tomei</span>
+                                </p>
+                                <p><strong>Thể loại: </strong><span>Hành Động, Khoa Học Viễn Tưởng</span></p>
+                                <p><strong>Khởi chiếu: </strong><span>05/07/2019</span></p>
+                                <p><strong>Thời lượng: </strong><span>135 phút</span></p>
+                                <p><strong>Ngôn ngữ: </strong><span>Tiếng Anh và phụ đề tiếng Việt</span></p>
+                                <p><strong>Rated: </strong><span>C13 - PHIM CẤM KHÁN GIẢ DƯỚI 13 TUỔI</span></p>
+                            </div>
+                            <div id="menu1" class="container tab-pane fade"><br>
+                                <p>Hậu chiến Vô Cực, Người Nhện Peter Parker và nhóm bạn thân cùng tham gia chuyến du
+                                    lịch
+                                    châu
+                                    Âu của trường. Tuy nhiên, kế hoạch siêu anh hùng nghỉ phép của Peter nhanh chóng bị
+                                    hủy
+                                    bỏ
+                                    sau khi cậu đồng ý giúp Nick Fury khám phá bí ẩn về những cuộc tấn công của nhóm kẻ
+                                    thù
+                                    mang
+                                    sức mạnh nguyên tố đang tàn phá khắp lục địa.</p>
+                                <div class="list_img">
+                                </div>
+                            </div>
+                            <div id="menu2" class="container tab-pane fade"><br>
+                                <iframe width="560" height="300" src="https://www.youtube.com/embed/sx8v7_TpSnM"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
-                    <div id="menu2" class="container tab-pane fade"><br>
-                        <iframe width="660" height="360" src="//www.youtube.com/embed/sx8v7_TpSnM?rel=0&amp;showinfo=0"
-                            frameborder="0" allowfullscreen=""></iframe>
+                </div>
+                <div class="detail_right">
+                    <div class="detail_right_inner">
+                        <div class="cast">
+                            <h5>Diễn viên</h5>
+                            <hr>
+                            <ul>
+                                <li>
+                                    <img src="http://static.hdo.tv/i/resources/new/actor/2016/01/22/tobey-maguire.jpg?v=01"
+                                        style="width:60px;height:auto !important;" alt="Tobey Maguire">
+                                    <p>TOBEY MAGUIRE</p>
+                                </li>
+                                <li>
+                                    <img onerror="this.onerror=null;this.src='http://static.hdo.tv/default_images/215x215.jpg';"
+                                        src="http://static.hdo.tv/i/resources/new/actor/2016/01/22/willem-dafoe.jpg?v=01"
+                                        style="width:60px;height:auto !important;" alt="Willem Dafoe">
+                                    <p>WILLEM DAFOE</p>
+                                </li>
+                                <li>
+                                    <img src="http://static.hdo.tv/i/resources/new/actor/2016/01/22/kirsten-dunst.jpg?v=01"
+                                        style="width:60px;height:auto !important;" alt="Kirsten Dunst">
+                                    <p>KIRSTEN DUNST</p>
+                                </li>
+                                <li>
+                                    <img src="http://static.hdo.tv/i/resources/new/actor/2016/01/22/james-franco.jpg?v=01" style="width:60px;height:auto !important;" alt="James Franco">
+                                    <p>James Franco</p>
+                                </li>
+                                <li>
+                                    <img  src="http://static.hdo.tv/i/resources/new/actor/2016/01/22/rosemary-harris.jpg?v=01" style="width:60px;height:auto !important;" alt="Rosemary Harris">
+                                    <p>Rosemary Harris</p>
+                                </li>
+                            </ul>
+                            <hr>
+                            <div class="keywords">
+                                <strong>Từ khoá</strong>
+                                <a href="">Tuyển Tập Spider-man</a>, <a href="">Người Nhện</a>, <a href="">Spider-Man</a> ,<a href="">Phim Marvel</a> .
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+        <section class="section" data-anchor="Page 2" class="section">        
+            <footer class="page-footer font-small blue pt-4">
+                <div class="container-fluid text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-6 mt-md-0 mt-3 pl-5 slogan">
+                            <p><img src="img/Meo_logo.svg" alt="" style="width:100%"></p>
+                            <p>CÔNG TY TNHH ME CINEMA VIETNAM</p>
+                            <p>65 Đường Huỳnh Thúc Kháng, Bến Nghé, Quận 1, Hồ Chí Minh, Việt Nam</p>
+                            <p>Hotline: +84 28 3821 2868</p>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none pb-3">
+                        <div class="col-md-3 mb-md-0 mb-3">
+                            <h4 class="text-uppercase">Phim</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Phim hot trong tháng</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Phim sắp chiếu</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 mb-md-0 mb-3">
+                            <h4 class="text-uppercase ">Kết nối</h4>
+                            <a class="btn" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="btn" href="#">
+                                <i class="fab fa-google"></i>
+                            </a>
+                            <a class="btn" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="btn" href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center py-2">© 2019 Copyright:
+                    <a href="https://mdbootstrap.com/education/bootstrap/"> cntt.caothang.edu.vn</a>
+                </div>
+            </footer>
+        </section>
+    </main>
+
     <script src="vendor/jquery/jquery-3.4.1.min.js"></script>
     <script src="vendor/poper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
